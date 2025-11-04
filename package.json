@@ -8,11 +8,11 @@
     "start": "next start",
     "lint": "eslint"
   },
-   "dependencies": {
+  "dependencies": {
     "@sanity/client": "^4.0.0",
+    "@sanity/icons": "^1.0.0",
     "@sanity/image-url": "^1.0.1",
     "@sanity/vision": "^4.0.0",
-    "@sanity/icons": "^1.0.0",
     "@stripe/stripe-js": "^1.25.0",
     "canvas-confetti": "^1.5.1",
     "next": "16.0.1",
@@ -21,16 +21,17 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.10.1",
+    "stripe": "^19.2.0",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.0.1"
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
